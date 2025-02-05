@@ -18,9 +18,7 @@ dictionaries/ – Sample dictionary files.
 Compilation
 To compile the program, run:
 make speller
-Copy
-Edit
-make speller
+
 
 Usage
 To check a text file against a dictionary:
@@ -33,11 +31,18 @@ Example:
 
 Features
 ✅ Efficient word lookup using a hash table
+
 ✅ Handles large dictionaries and text files
+
 ✅ Ignores case and punctuation
+
 ✅ Reports misspelled words
+
 
 Notes
 The default dictionary contains 143,091 words.
+
 The load function must load all words into memory efficiently.
+
 The unload function should free all allocated memory properly.
+
